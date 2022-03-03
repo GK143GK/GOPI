@@ -1,12 +1,14 @@
-import react from 'react'
-import reactDom from 'react-dom'
+import React from 'react';
+import reactDom from 'react-dom';
+import { Display } from './Dhana';
+import { Pet } from './Gopi';
+
 // render("what to show and where to show")
 reactDom.render(
 <>
-    <h1>Welcome to my World</h1>
-    <p>Gopikrishna</p>
-    <p>Shanmugan</p>
-    <p>Hi Dhanasekar</p>
+  
+  <Pet/>
+  <Display/>
 </>
 ,document.getElementById("root")
 )
