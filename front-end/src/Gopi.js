@@ -2,6 +2,6 @@ import React from 'react'
 export function Pet()
 {
     return (
-        <h1>My Name is Gopikrishna</h1>
+        <h1>My Name is Gopikrishna s</h1>
     )
 }
